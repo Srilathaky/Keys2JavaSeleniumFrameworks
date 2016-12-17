@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <parameter name="browsername" value="firefox"/>
+  <parameter name="url" value="http://newtours.demoaut.com"/>
+  <test name="Test(failed)">
+    <parameter name="browsername" value="firefox"/>
+    <parameter name="url" value="http://newtours.demoaut.com"/>
+    <classes>
+      <class name="in.key2javaselenium.newtours.testrunner.NewToursRunner">
+        <methods>
+          <include name="verifyHomePage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- in.key2javaselenium.newtours.testrunner.NewToursRunner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
